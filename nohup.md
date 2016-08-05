@@ -1,4 +1,5 @@
 #nohup
+
 应用Unix/Linux时，我们一般想让某个程序在后台运行，不要关闭shell窗口程序就停止运行了。
 
 于是我们将常会用 & 在程序结尾来让程序自动运行。比如我们要运行mysql在后台： /usr/local/mysql/bin/mysqld_safe –user=mysql &。
